@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Mobile2",
-    "slug": "Mobile2",
+    "name": "Mobile2_2320002",
+    "slug": "mobile2-2320002",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -25,7 +25,12 @@
       "favicon": "./assets/images/favicon.png"
     },
     "plugins": [
-      "expo-router",
+      [
+        "expo-router",
+        {
+          "root": "./src/app"
+        }
+      ],
       [
         "expo-splash-screen",
         {
